@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.header {
+  background-color: #077caa;
+  padding: 20px;
+}
+
+.header .logo,
+.header nav,
+.header ul,
+.header li {
+  display: inline;
+  padding: 10px;
+}
+.header .logo {
+  color: white;
+  font-size: 22px;
+}
+
+.header a,
+.get-membership,
+.facebook,
+.instagram,
+.youtube {
+  text-decoration: none;
+}
+
+.header li,
+.footer ul {
+  list-style: none;
+}
+
+.header a {
+  color: white;
+}
+
+.main {
+  padding: 30px;
+}
+
+.top h2,
+.top p {
+  padding-bottom: 20px;
+}
+
+strong {
+  color: #077caa;
+}
+
+.get-membership {
+  display: inline-block;
+  color: orange;
+  padding: 10px 20px;
+  border: solid 2px;
+  border-radius: 13px;
+}
+
+.follow-us h2 {
+  padding: 20px 0px 10px 0px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #077caa;
+}
+
+.social-link {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border: solid 2px purple;
+  border-radius: 13px;
+}
+
+.instagram {
+  background-color: rgb(190, 3, 190);
+}
+
+.facebook {
+  background-color: rgb(98, 98, 248);
+}
+
+.youtube {
+  background-color: rgb(255, 91, 91);
+}
+
+.aboutUs p {
+  padding: 10px;
+  max-width: 75ch;
+}
+
+.testimonial {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 2px rgb(108, 108, 108);
+  margin: 20px;
+  display: flex;
+  width: 500px;
+}
+
+.locations-gyms-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.gym img {
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px 2px rgb(108, 108, 108);
+  margin: 0px 20px 20px 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.gym h3 {
+  margin: 20px;
+  padding: 0;
+}
+
+.footer {
+  font-size: 15px;
+  background-color: #077caa;
+  padding: 20px;
+  color: white;
+}
+
+.footer strong {
+  color: white;
+}
+
+.sub-list {
+  padding-left: 20px;
+}
+
+.footer h3 {
+  padding-bottom: 10px;
+  font-weight: normal;
+}
